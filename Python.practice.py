@@ -1,14 +1,15 @@
 print("Hello World")
-print (8//5-3)
-print (8+22*2-4)
-print (16-3/2+7-1)
-print (3**3%5)
-print (5+9*3/2-4)
 
-print ((5+2)*3)
-print ((8//5)-3)
-print (8+(22*(2-4)))
-print (16-3/(2+7)-1)
-print (3**(3%5))
-print (5+(9*3/2-4))
-print (5+(9*3/(2-4)))
+#How many votes did you get?
+my_votes = int(input("How many votes did you get in the election? "))
+
+#Total votes in the election
+total_votes = int(input("what is the total votes in the election? "))
+
+#Calculate the percentage of votes you received
+percentage_votes = (my_votes / total_votes) * 100
+
+print("I received " + str(percentage_votes)+"% of the total votes. ")
+
+
+
