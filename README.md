@@ -1,7 +1,7 @@
 # Election_Analysis
 Module 3 challenge
 
-##Project Overview
+## Project Overview
 A Colorado Board of Elections employee has supplied the following tasks to complete the election audit of a reent local congressional election
 
 *Tasks*
@@ -14,11 +14,11 @@ A Colorado Board of Elections employee has supplied the following tasks to compl
 7. The percentage of votes for each county out of the total county
 8. The county with the highest turnout
 
-##Resources
+## Resources
 -Data Source: election_results.csv
 -Software: Python 3.9.7, Visual Studio Code 1.65.2
 
-##Summary
+## Summary
 The analysis of the election show: 
 -There were 369,711 votes cast in the election. 
 -The counties were:
@@ -42,5 +42,5 @@ The analysis of the election show:
 -The winner of the election was: 
 	-Diana DeGette, who received 73.8% of the vote and 272,892 number of votes. 
 
-##Election Audit Summary
+## Election Audit Summary
 Future elections can use the same code provided to perform the same calculations, with a few changes. First, it is recommended that a .csv file is used, to keep the file retrieval consistant. The file path to load and save would need to be updated with the correct file path for any future elections. Second, if there was a tie between candidates, the provided code would need to be amended to account for more than one winner, or have the percentage go out past 1 decimal point. Lastly, the text file where results will be written will need to be changed to be the correct naming convention of future elections. 
