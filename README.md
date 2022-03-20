@@ -43,3 +43,4 @@ The analysis of the election show:
 	-Diana DeGette, who received 73.8% of the vote and 272,892 number of votes. 
 
 ##Election Audit Summary
+Future elections can use the same code provided to perform the same calculations, with a few changes. First, it is recommended that a .csv file is used, to keep the file retrieval consistant. The file path to load and save would need to be updated with the correct file path for any future elections. Second, if there was a tie between candidates, the provided code would need to be amended to account for more than one winner, or have the percentage go out past 1 decimal point. Lastly, the text file where results will be written will need to be changed to be the correct naming convention of future elections. 
