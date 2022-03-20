@@ -15,32 +15,32 @@ A Colorado Board of Elections employee has supplied the following tasks to compl
 8. The county with the highest turnout
 
 ## Resources
--Data Source: election_results.csv
--Software: Python 3.9.7, Visual Studio Code 1.65.2
+- Data Source: election_results.csv
+- Software: Python 3.9.7, Visual Studio Code 1.65.2
 
 ## Summary
 The analysis of the election show: 
--There were 369,711 votes cast in the election. 
--The counties were:
-	-Jefferson
-	-Denver
-	-Arapahoe
--The county results were: 
-	-Jefferson had 10.5% of the total vote with 38,855 total votes cast 
-	-Denver had 82.8% of the total vote with 306,05 total votes cast 
-	-Arapahoe had 6.7% of the total vote with 24,801 total votes cast 
--The county with the largest number of votes: 
-	-Denver with 82.8% of the total votes and 306,055 total votes cast
--The candidates were:
-	-Charles Casper Stockham
-	-Diana DeGette
-	-Raymon Anthone Doane
--The candidate results were:
-	-Charles Casper Stockham received 23.0% of the vote and 85,213 votes
-	-Diana DeGette received 73.8% of the vote and 272,892 votes
-	-Raymon Anthony Doane received 3.1% of the vote and 11,606 votes
--The winner of the election was: 
-	-Diana DeGette, who received 73.8% of the vote and 272,892 number of votes. 
+- There were 369,711 votes cast in the election. 
+- The counties were:
+	- Jefferson
+	- Denver
+	- Arapahoe
+- The county results were: 
+	- Jefferson had 10.5% of the total vote with 38,855 total votes cast 
+	- Denver had 82.8% of the total vote with 306,05 total votes cast 
+	- Arapahoe had 6.7% of the total vote with 24,801 total votes cast 
+- The county with the largest number of votes: 
+	- Denver with 82.8% of the total votes and 306,055 total votes cast
+- The candidates were:
+	- Charles Casper Stockham
+	- Diana DeGette
+	- Raymon Anthone Doane
+- The candidate results were:
+	- Charles Casper Stockham received 23.0% of the vote and 85,213 votes
+	- Diana DeGette received 73.8% of the vote and 272,892 votes
+	- Raymon Anthony Doane received 3.1% of the vote and 11,606 votes
+- The winner of the election was: 
+	- Diana DeGette, who received 73.8% of the vote and 272,892 number of votes. 
 
 ## Election Audit Summary
 Future elections can use the same code provided to perform the same calculations, with a few changes. First, it is recommended that a .csv file is used, to keep the file retrieval consistant. The file path to load and save would need to be updated with the correct file path for any future elections. Second, if there was a tie between candidates, the provided code would need to be amended to account for more than one winner, or have the percentage go out past 1 decimal point. Lastly, the text file where results will be written will need to be changed to be the correct naming convention of future elections. 
